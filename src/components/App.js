@@ -50,7 +50,7 @@ const App = props => {
 
 const mapStateToProps = (state) => {
   return {
-    displayFavorites: state.movieReducer
+    displayFavorites: state.displayFavorites
   }
 }
 
